@@ -6,6 +6,7 @@ IVA_GENERAL = 0.21
 ENVIO = 4.95
 UMBRAL_ENVIO_GRATIS = 50.0
 
+
 def main():
     """Solicita el artículo, el precio, las unidades y el descuento para calcular el importe final."""
     # Entradas
@@ -33,6 +34,7 @@ def main():
     print(f" IVA (21 %):             {iva:8.2f} €")
     print(f" Envío:                  {envio:8.2f} €")
     print(f" TOTAL:                  {total:8.2f} €")
+
 
 if __name__ == "__main__":
     main()
